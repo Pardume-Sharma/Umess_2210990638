@@ -18,3 +18,8 @@ This will reduce the overhead for the students in managing their mess cards and 
 
 1.7 Original Contribution Statement
 This project presents a one stop solution for modernizing hostel mess management by replacing traditional, manual processes with a secure and scalable system. The proposed platform uniquely combines QR code–based meal authentication, role-based access control, and anonymous feedback mechanisms into a single unified application. Unlike existing fragmented approaches, this system introduces a transparent and data-driven environment that enables real-time monitoring of food consumption, wastage, and student satisfaction. 
+
+
+Screenshots:
+<img width="2962" height="1530" alt="image" src="https://github.com/user-attachments/assets/83082c4e-7950-4df7-9378-6145bdf830b4" />
+
