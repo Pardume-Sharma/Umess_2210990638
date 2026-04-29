@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  padding: .2rem 4%;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-bottom: 1.4px solid var(--black-color);
+}
+
+h1{
+  text-align: center;
+  & span{
+    color: red;
+  }
+}
+.logo {
+  width: 5rem;
+}
+
+.profile {
+  width: 2.8rem;
+}
+
+.admin-img {
+  height: 4.8rem;
+}
+.heading{
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75); 
+}
+.device{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.modal {
+  padding-left: 4rem;
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem 2%;
+  }
+
+  .logo {
+    width: 4rem;
+  }
+
+  .profile {
+    width: 2.5rem;
+  }
+
+  .admin-img {
+    height: 4rem;
+  }
+
+  .navbar-menu {
+    display: none; 
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  .menu-btn.active + .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .navbar-menu a {
+    padding: 10px 0;
+  }
+
+  .menu-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+.roll-input {
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.QR-btns {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.btn-class {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  max-width: 4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-class:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,135 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: -.68rem;
+  padding: .4rem;
+  margin-top: 5.4rem;
+  width: 4rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10; 
+  border-right: 2px solid var(--black-color);
+  transition: width 0.3s ease;
+  background: white; /* default state */
+  p {
+    display: none;
+  }
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.1rem;
+  cursor: pointer;
+  img{
+    height: 1.8rem;
+}
+}
+.active-field{
+  padding: .4rem;
+  border-bottom: 2px solid green;
+}
+
+.data {
+  display: none;
+}
+
+
+
+.active.sidebar {
+  background-color: white;
+  width: 14rem;
+}
+
+.active p {
+  display: block;
+}
+
+.active .hostel-selection {
+  display: block;
+}
+.active .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.active .menu-icon{
+  position: relative;
+  left: 4rem;
+}
+
+.icons{
+  width: 1.4rem;
+  height: 1.4rem !important;
+  cursor: pointer;
+}
+
+.sidebar-options {
+  padding-top: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 12px;
+  background: var(--menu-bg-color);
+  transition: background 0.3s ease;
+}
+
+.sidebar-option:hover,
+.active .sidebar-option {
+  background: var(--highlight-color);
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 3rem; /* Adjust for smaller screens */
+  }
+
+  .active.sidebar {
+    width: 14rem;
+  }
+
+  .sidebar-option p {
+    display: none; /* Hide labels for narrow sidebar */
+  }
+}
+
+.fields {
+  text-align: left;
+  display: flex;
+  margin-top: .4rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  /* margin-bottom: 1.5rem; */
+}
+
+.hostel-selection {
+  min-width: 11rem;
+  display: none;
+}
+
+.add-hostel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  min-width: 11rem;
+  button{
+    margin-top: 1.1rem;
+  }
+}

@@ -1,0 +1,104 @@
+.food-graph-container {
+  margin: 3.4rem auto;
+  width: 58%;
+  padding: 4%;
+  margin-top:1.4rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+.food-form {
+  display: flex;
+  gap: .4rem;
+  flex-wrap: wrap; /* Ensures form elements wrap on smaller screens */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allows form elements to wrap on smaller screens */
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+button {
+  padding: 10px 15px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.chart {
+  width: 100%;
+  height: 400px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .food-graph-container {
+      width: 80%; /* Adjust width for tablets */
+      margin-left: 1.4rem;
+      padding: 5%; /* Increase padding on smaller screens */
+  }
+
+  form {
+      flex-direction: column; /* Stack form elements vertically */
+  }
+
+  input {
+      margin-right: 0;
+      margin-bottom: 10px; /* Space between form fields */
+  }
+
+  button {
+      width: 100%; /* Make button span the full width */
+  }
+
+  .chart {
+      height: 300px; /* Reduce chart height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .food-graph-container {
+      width: 90%; /* Even more narrow on very small screens */
+      padding: 5%;
+  }
+
+  h2 {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+  }
+
+  .chart {
+      height: 250px; /* Adjust chart height further */
+  }
+
+  button {
+      padding: 12px; /* Larger padding on small screens */
+  }
+}

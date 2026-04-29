@@ -1,0 +1,118 @@
+.notice-container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  margin-top: 4.8rem;
+  background-color: var(--white-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.notice-form {
+  margin-bottom: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.notice-form .form-group {
+  margin-bottom: 1.1rem;
+}
+
+.notice-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.notice-form input,
+.notice-form textarea {
+  width: 100%;
+  padding: 10px;
+  max-width: 34rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.notice-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.btn-submit {
+  color: white;
+  padding: 10px 15px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 11rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.notices-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4,1fr);
+  width: 88%;
+  margin: 0 auto;
+  gap: 1.4rem;
+  gap: 20px;
+  max-height: 48rem;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+@media (width<=768px) {
+  .notices-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.1rem;
+  }
+}
+
+.notice-item {
+  background-color: var(--white-color);
+  padding: 15px;
+  width: 260px;
+  max-height: 11rem;
+  overflow: auto;
+  border: 1px solid var(--black-color);
+  border-left: 5px solid #007BFF;
+  border-radius: 5px;
+  position: relative;
+}
+
+.notice-content h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.notice-content p {
+  margin-top: 5px;
+  color: #666;
+  word-wrap: break-word;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.delete-icon:hover {
+  color: #c0392b;
+}

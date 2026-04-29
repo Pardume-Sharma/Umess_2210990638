@@ -1,0 +1,127 @@
+/* NewAdmins.css */
+
+.admin-list-container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  margin-top: 4.4rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  min-height: 100vh; /* Full height */
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5em; /* Larger title */
+}
+
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-container label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filter-container select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.filter-container select:hover {
+  border-color: #666; /* Darker border on hover */
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Maximum width */
+}
+
+.admin-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth effect on hover */
+}
+
+.admin-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.admin-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.5em; /* Increased size for admin name */
+}
+
+.admin-card p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.admin-card select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.admin-card select:hover {
+  border-color: #666; /* Darker border on hover */
+}
+
+.approved {
+  background-color: #4CAF50; /* Green for approved */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.approved:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.not-approved {
+  background-color: #f44336; /* Red for not approved */
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-right: .8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.not-approved:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.delete-btn {
+  position: relative;
+  right: -14rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .admin-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}

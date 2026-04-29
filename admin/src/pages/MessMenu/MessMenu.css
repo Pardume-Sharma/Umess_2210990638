@@ -1,0 +1,112 @@
+  .mess-menu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 4.4rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .mess-menu__title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .mess-menu__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Select and input styles */
+  .mess-menu__select,
+  .mess-menu__input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .mess-menu-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    max-width: 11rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mess-menu__button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table styles */
+  .mess-menu__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .mess-menu__table th,
+  .mess-menu__table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .mess-menu__table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .mess-menu__form {
+      flex-direction: column;
+    }
+  
+    .mess-menu__select,
+    .mess-menu__input,
+    .mess-menu__button {
+      width: 100%;
+    }
+  
+    .mess-menu__table {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .mess-menu__title {
+      font-size: 24px;
+    }
+  
+    .mess-menu__table th,
+    .mess-menu__table td {
+      padding: 8px;
+    }
+  }
+  @media (width<=768px) {
+    .mess-menu{
+        margin-left: 3.4rem;
+    }
+  }
+  
+.menu-btns{
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+.edit-icon{
+  cursor: pointer;
+  height: 1.1rem;
+}
