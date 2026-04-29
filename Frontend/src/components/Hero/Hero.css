@@ -1,0 +1,109 @@
+.hero{
+    z-index: -1;
+    background: url('../../assets/hero-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@keyframes ltor{
+    0%{
+        transform: translateX(-100%);
+        opacity: .2;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10rem;
+    color: var(--txt-color);
+    padding-bottom: 4rem;
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        padding: 0 auto;
+        gap: 1rem;
+        width: 50%;
+        animation: .5s ltor linear;       
+        .hero-title{
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+        .hero-description{
+            font-size: 1rem;
+            line-height: 1.4rem;
+            font-style: italic;
+            font-size: 1.1xrem;
+        }
+        .hero-description::selection{
+            background-color: rgba(172, 255, 47, 0.383);
+        }
+        .hero-btn{
+            margin-top: 2rem;
+        }
+        .hero-btn .nav-link .btn-class:hover{
+            scale: 1.1;
+        }
+    }   
+    
+    @media (width<=768px ) and (width>=425px) {
+        .hero-section{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15rem 0;
+        }
+        .hero-title{
+            font-size: 2rem;
+        }
+        .hero-description{
+            font-size: 1rem;
+        }
+        .hero-left{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }
+    @media (width<=425px)
+    {
+        .hero-section{
+            padding: 20rem 0;
+        }
+        .hero-left{
+            width: 90%;
+        }
+        .hero-title{
+            font-size: 1.5rem;
+        }
+        .hero-description{
+            font-size: .7rem;
+        }
+    }
+    @media (width<=320px) {
+        .hero-section{
+        padding: 2rem 0;
+       }
+        .hero-title{
+            font-size: 3vw;
+        }
+        .hero-description{
+            font-size: 3vw;
+        }
+    }
+}
