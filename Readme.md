@@ -56,3 +56,7 @@ Notice Management Service:
 
 Analytics Page:
 <img width="2938" height="1530" alt="image" src="https://github.com/user-attachments/assets/8a4e26ef-a007-4bb4-aeb1-43cb0ac13f00" />
+
+Reports Page:
+<img width="2982" height="1498" alt="image" src="https://github.com/user-attachments/assets/1cb9a1cb-ad77-4589-a3d9-a0ea87b769c3" />
+
