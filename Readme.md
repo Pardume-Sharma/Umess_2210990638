@@ -21,5 +21,38 @@ This project presents a one stop solution for modernizing hostel mess management
 
 
 Screenshots:
+Landing Page
 <img width="2962" height="1530" alt="image" src="https://github.com/user-attachments/assets/83082c4e-7950-4df7-9378-6145bdf830b4" />
 
+Menu Avail section:
+<img width="2960" height="1498" alt="image" src="https://github.com/user-attachments/assets/f9d4f11b-37fd-422b-b1b0-1719a950cf37" />
+
+Review Form:
+<img width="2578" height="1676" alt="image" src="https://github.com/user-attachments/assets/21387e20-5950-4bbc-ba10-5bf1b1fbd101" />
+
+Booking Facility for Faculties only:
+<img width="2856" height="1416" alt="image" src="https://github.com/user-attachments/assets/51b6a623-8b07-4dec-a715-6b05132d0df5" />
+
+Admin Dashboard:
+<img width="2966" height="1230" alt="image" src="https://github.com/user-attachments/assets/c5820733-8bd8-4b2b-a3a3-f12f54c36077" />
+
+User Management Service:
+<img width="2970" height="1568" alt="image" src="https://github.com/user-attachments/assets/59675b43-2ffc-4579-a0db-55f2dd6c8f5d" />
+
+Menu Management Service:
+<img width="2976" height="1540" alt="image" src="https://github.com/user-attachments/assets/6508b7ae-739e-4548-92fc-3e806b44ed96" />
+
+Bookings Managemnet Service:
+<img width="2942" height="1482" alt="image" src="https://github.com/user-attachments/assets/5d89cbb7-3814-4f65-9d75-4856dfaac2f9" />
+
+QR Based Food Avail:
+<img width="2968" height="1556" alt="image" src="https://github.com/user-attachments/assets/b63b9ac5-badb-47c1-b9ea-6becd8e83caf" />
+
+Review Managment Service:
+<img width="2978" height="1558" alt="image" src="https://github.com/user-attachments/assets/0c6cf7c4-cb13-4d8f-8a41-449e772193dc" />
+
+Notice Management Service:
+<img width="2980" height="1510" alt="image" src="https://github.com/user-attachments/assets/cd03ff9e-913b-437b-9495-083102adf6b9" />
+
+Analytics Page:
+<img width="2938" height="1530" alt="image" src="https://github.com/user-attachments/assets/8a4e26ef-a007-4bb4-aeb1-43cb0ac13f00" />
