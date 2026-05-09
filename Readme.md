@@ -1,4 +1,4 @@
-===================================================== Hi viewer, The main Source code is present in the develop branch. ===========================================================
+Hi viewer, The main Source code is present in the develop branch.
 
 1.1 Problem Background
 In today's digital world, when each and every industry is going for digitalization, we were relying on old mess management methods such as mess cards, complaints register, Written Applications etc. So in order to make this management more efficient and transparent. I introduced Umess which is a one stop solution for all these problems which could be an add-on to U-Hostel application. It covers the issue of taking care of hard copies and also provides end-to-end encrypted services with a feature to register anonymous complaints.  
